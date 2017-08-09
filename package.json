@@ -1,0 +1,20 @@
+{
+  "name": "projeto-astra-backend",
+  "version": "1.0.0",
+  "description": "Backend da Astra Carteira Administrativa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Paulo Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.15.3",
+    "express-mongo-db": "^2.0.3",
+    "mongod": "^2.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
